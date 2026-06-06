@@ -10,6 +10,7 @@ export default function Navbar() {
                     <h3 >Portfolio</h3>
                 </div>
                 <button
+                    type="button"
                     className="hamburger"
                     onClick={() => setIsOpen(!isOpen)}
                 >
@@ -17,10 +18,10 @@ export default function Navbar() {
                 </button>
                 <div className={`nav-links ${isOpen ? "active" : ""}`}>
                     <a href="#" className="nav-item">Home</a>
-                    <a href="#" className="nav-item">About</a>
-                    <a href="#" className="nav-item">Experience</a>
-                    <a href="#" className="nav-item">Projects</a>
-                    <a href="#" className="nav-item">Contacts</a>
+                    <a href="#AboutMe" className="nav-item">About</a>
+                    <a href="#Experience" className="nav-item">Experience</a>
+                    <a href="#Projects" className="nav-item">Projects</a>
+                    <a href="#Contacts" className="nav-item">Contacts</a>
                 </div>
             </nav>
         </>

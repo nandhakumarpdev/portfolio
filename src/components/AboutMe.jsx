@@ -1,7 +1,7 @@
 function AboutMe() {
     return (
         <>
-            <div id="About" style={{ height: 500 }}>
+            <div id="AboutMe" style={{ height: 500 }}>
                 <h3>About</h3>
             </div>
         </>
